@@ -1,0 +1,8 @@
+{
+    "rewrites" : [
+        {
+            "scoure" : "/(.*)",
+            "destination" : "/index.html"
+        }
+    ]
+}
