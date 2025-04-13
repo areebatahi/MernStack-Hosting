@@ -22,7 +22,7 @@ app.use(
 
 
 app.use(express.json());
-const port = 5000;
+const port = 5000 || process.env.PORT;
 app.use("/api/auth",userRoutes)
 app.use("/api/cart",cartRoutes)
 app.use('/api/products', productRoutes);
